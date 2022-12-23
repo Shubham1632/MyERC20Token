@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\91902\.node\corepack\yarn\1.22.15\bin\yarn.js add --dev hardhat
+
+PATH: 
+  C:\Program Files\CMake\bin;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.8\bin;C:\Users\91902\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\CMake\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\91902\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\91902\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\91902\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.2\bin;;C:\Users\91902\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\91902\Documents\flutter\bin;C:\Users\91902\AppData\Local\Android\Sdk;C:\Users\91902\.android\avd;C:\Program Files (x86)\Python38-32\;C:\Users\91902\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\91902\AppData\Roaming\npm;C:\Users\91902\AppData\Local\Programs\Hyper\resources\bin;C:\Users\91902\AppData\Roaming\Python\Python39\Scripts;C:\Users\91902\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\91902\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:691:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1585:19)
+      at TLSSocket.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "hardhat_ERC20",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

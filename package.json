@@ -1,0 +1,8 @@
+{
+  "name": "hardhat_ERC20",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.12.3"
+  }
+}
